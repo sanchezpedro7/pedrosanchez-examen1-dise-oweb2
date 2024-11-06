@@ -1,0 +1,244 @@
+
+:root{
+	--color-contenido:#717A81;
+	--fondo-header:#000;
+	--color-gris:#cacaca;
+	--color-titulos:#303132;
+	--color-azul:#4859fc;
+	--color-azul-btn:#007bff;
+	--color-subtitulos:#d2d2d2;
+	--color-gris:#979797;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: var(--color-contenido);
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	background-color: #000;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#hero{
+	background-image: url(../img/v36-intro.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 10% 0;
+	color: #fff;
+}
+
+
+#hero h1{
+	font-family: "Poppins", serif;
+	font-size: 60px;
+}
+
+#slides h1{
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#hero h2,
+#slides h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #cacaca;
+}
+
+#hero .btn,
+#products .btn{
+	background-color: var(--color-azul-btn);
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 40px;
+	color: #fff;
+}
+
+
+
+.subtitle{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section{
+	padding: 80px 0;	
+}
+
+#what{
+	text-align: center;
+}
+#what i{
+	font-size: 50px;	
+	color: var(--color-azul);
+	margin-bottom: 40px;
+}
+#what article h4{
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+}
+
+
+
+.productos-de-calidad{
+	background-color: #000;
+	padding: 60px 0;
+}
+#productos-de-calidad .title{
+	text-align: left;
+	color: #fff;
+	font-weight: 700;
+	font-size: 60px;
+}
+
+#productos-de-calidad .subtitle{
+	text-align: left;
+	color: var(--color-subtitulos);
+	font-size: 18px;
+}
+
+
+
+
+
+#pods .title{
+	font-family: "Poppins", serif;
+	text-align: left;
+	margin-top: 130px;
+	margin-bottom: 5px;
+}
+
+#pods h3{
+	text-transform: uppercase;
+	color: var(--color-azul);;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#pods p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+#reviews{
+	background-color: var(--color-azul);
+	text-align: center;
+}
+#reviews .title{
+	font-family: "Poppins", serif;
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+#reviews article{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#reviews .info-review{
+	background-color: #fff;
+	padding: 35px 20px;
+	box-shadow: 0px 0px 20px 2px var(--color-azul);
+	margin-bottom: 15px;
+}
+
+.info-review h3{
+	color: var(--color-titulos);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.info-review h4{
+	font-size: 14px;	
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.info-review p{
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+footer{
+	padding-top: 5%;
+}
+footer #info h3{
+	font-size: 14px;
+	/*propiedades faltantes*/
+}
+footer #copy{
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.titulo{
+	font-family: "Poppins", serif;
+	color: #000;
+	font-weight: 700;
+}
+.columnastitulo{
+	color: #fff;
+	font-size: 50px;
+}
+.parrafo1{
+	font-family: "Roboto", serif;
+	font-weight: 700;
+}
+.parrafo2{
+	font-family: "Roboto", serif;
+}
+.minititulo{
+	font-family: "Roboto", serif;
+}
+.subtitle{
+	color: #fff;
+	font-family: "Roboto", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
